@@ -19,3 +19,39 @@ header {
 h1 {
   margin: 0;
 }
+
+main {
+  padding: 20px;
+}
+
+.question-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.question-card h2 {
+  margin-top: 0;
+}
+
+.question-card button {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.question-card button:hover {
+  background-color: #45a049;
+}
+
+.question-card .answer {
+  margin-top: 10px;
+  font-weight: bold;
+}
